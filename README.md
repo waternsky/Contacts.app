@@ -12,7 +12,8 @@ This project was created to understand Hypermedia Driven Application (HDA)
 ### Design choice
 
 1. Started with Jinja templating to render the contacts.html template which uses
-row.html to show contacts on server.
+row.html to show contacts which are present on server.
+2. Decided to use sqlite3 as file base database, as it simple to start with.
 
 ## Reference
 
