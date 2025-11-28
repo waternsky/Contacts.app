@@ -5,8 +5,14 @@
 
 
 class Contact:
-    def __init__(self, id=None, first=None, last=None, phone=None, email=None):
-        self.id = id
+    first: str
+    last: str
+    phone: str
+    email: str
+
+    def __init__(
+        self, first: str = "", last: str = "", phone: str = "", email: str = ""
+    ):
         self.first = first
         self.last = last
         self.phone = phone
